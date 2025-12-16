@@ -76,14 +76,13 @@ html {
 header {
     position: fixed;
     inset: 0 0 auto 0;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 15px 5%;
     background: #fff;
     box-shadow: var(--shadow);
     z-index: 99;
-}
+} 
 
 header nav {
     display: flex;
@@ -98,5 +97,14 @@ header nav a:hover {
     color: var(--primary);
 }
 
+
+.hero-wrapper {
+    background: linear-gradient(135deg, #fff9f5, white);
+    padding-top: 80px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 
 
 
